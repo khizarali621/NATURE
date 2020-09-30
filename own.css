@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    height: auto;
+
+}
+
+.section-1 {
+    width: 100%;
+    height: 620px;
+    border: 1px solid white;
+    background-image: url(own/back7.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    /* background-attachment: fixed; */
+    /* top:5px */
+}
+
+.nav {
+    width: 99%;
+    height: 100px;
+    border: 1px solid transparent;
+    position: absolute;
+
+}
+
+.nav ul li {
+    color: white;
+    float: left;
+    margin: 0px 20px;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    background: rgb(28, 31, 30);
+    box-shadow: -5px 10px 15px -3px rgba(0, 0, 0, 0.67);
+}
+
+.nav ul {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+
+
+}
+
+.nav img {
+    border: 1px solid transparent;
+    position: absolute;
+    background-size: 100% 100%;
+    height: 50px;
+    top: 25%;
+    left: 7%;
+
+}
+
+.welcome {
+    width: 50%;
+    height: 200px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.welcome h1 {
+    color: white;
+    text-align: center;
+}
+
+.welcome p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn {
+    width: 130px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: rgb(28, 31, 30);
+    box-shadow: -10px 10px 15px -3px rgba(0, 0, 0, 0.67);
+}
+
+.section-2 {
+    width: 100%;
+    height: 900px;
+    background: rgb(8, 8, 8);
+    background-image: url(own/back4.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    /* background-attachment: fixed; */
+}
+
+
+.ss2 {
+    width: 20%;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+
+.featuress {
+    width: 90%;
+    height: 600px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 200px;
+    left: 65px;
+    transition: all 2s;
+}
+
+
+.featuresss {
+    width: 500px;
+    height: 250px;
+    border: 1px solid white;
+    float: left;
+    margin-left: 15px;
+    margin-top: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.featuresss:hover {
+    transform: scale(1.3);
+    transition-duration: 5s;
+
+}
+
+.b {
+    margin-left: 180px;
+}
+
+.section-4 {
+    width: 100%;
+    height: 800px;
+    border: 1px solid white;
+    position: relative;
+    background-image: url(own/back5.jpg);
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+
+
+.sss4 {
+    width: 15%;
+    height: 430px;
+    border: 3px solid white;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.sss4:hover {
+    box-shadow: -20px 10px 15px -3px rgba(0, 0, 0, 0.67);
+    transform: scale(1.15);
+    transition-duration: 2s;
+
+}
+
+
+
+.vb {
+    margin-left: 350px
+}
+
+.vba {
+    margin-left: 700px;
+}
+
+.vbb {
+    margin-left: 1050px;
+}
+
+.read {
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 620px;
+    left: 26px;
+    float: left;
+    cursor: pointer;
+}
+
+.read:hover {
+    box-shadow: -10px 10px 15px -3px rgba(0, 0, 0, 0.67);
+    background: rgb(26, 26, 27);
+    color: mediumspringgreen;
+    ;
+}
+
+.g:hover {
+    color: black;
+}
+
+.g {
+    margin-left: 350px
+}
+
+.gg {
+    margin-left: 700px;
+}
+
+.ggg {
+    margin-left: 1050px;
+}
+
+.section-4>.ss2:hover {
+    box-shadow: -5px 10px 15px -3px rgba(0, 0, 0, 0.67);
+}
+
+.section-5 {
+    position: relative;
+}
+
+.sec5img {
+    width: 100%;
+    height: 900px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.sec5img img {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-attachment: fixed; */
+}
+
+.sc5one {
+    width: 250px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    top: 200px;
+    float: left;
+    left: 70px
+}
+
+.sher {
+    margin-left: 280px;
+    width: 900px
+}
+
+.dosri {
+    margin-top: 200px
+}
+
+.two {
+    margin-top: 200px
+}
+
+.three {
+    margin-top: 400px
+}
+
+.tsri {
+    margin-top: 400px
+}
+
+.sc5one img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    cursor: pointer;
+
+}
+
+.sc5one:hover {
+    box-shadow: -10px 10px 15px -3px rgba(0, 0, 0, 0.67);
+}
+
+.section6 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.section6 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.lets {
+    width: 80%;
+    height: 200px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 30px;
+    left: 150px
+}
+
+.vv {
+    width: 500px;
+    position: absolute;
+    left: 270px
+}
+
+.btn2 {
+    width: 130px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.btn2:hover {
+    background: rgb(28, 31, 30);
+    box-shadow: -10px 10px 15px -3px rgba(0, 0, 0, 0.67);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-2{
+    width: 99.7%;
+    height: 600px;
+    border: 1px solid transparent;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)), urlback2.jpg);
+
+} */
+
+/* .ss2{
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    left: 30%;
+} */
